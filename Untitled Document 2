@@ -1,0 +1,24 @@
+Due Thursday, September 11
+
+A) You have been sent a file “AllCountries.dat” which contains records terminated by ‘/n’ within which there are comma separated fields. N.B. The last record may not have an /n and you may insert it if needed. These fields include
+
+129,BWA,Botswana,Africa,Southern Africa,581730,1966,1622000,39.3,4834,Botswana,Republic,Festus G. Mogae,204,BW
+
+a country id (“BWA”) , a name (“Botswana”), a population “1622000” and a life expectancy “39.3”/
+
+This file is to be opened, and read only once, filling the values above into a C struct. You will create an array of structs to store the information from those records.
+
+You will send the number of records to the program as a command line argument and you will dynamically allocate the array space with a single call to malloc() or calloc().
+
+Once the array of records is built, the user will be able to search for country information by the 3 letter code provided at the keyboard. The user will terminate searches via some command of your choosing.
+
+You may use only the following system and library calls:
+
+open(),close(),lseek(), strtok_r(), strncpy(), strncmp(), read(), and printf().
+
+B) Sort the array and implement a binary search.
+
+C) Make every effort to write code well, both in terms of the design and testing, and the documentation.
+
+
+The chief purpose of this assignment is to get you busy now ! Especially important is revisiting the ideas of structs(), pointers, Unix I/O vocabulary, as well as dynamic allocation and string manipulation. Be busy now because we want to provide feedback to you quickly. This assignment will cascade with another so please start thinking and typing so I can send you away on Thursday well tasked. 

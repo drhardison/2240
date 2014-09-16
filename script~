@@ -1,0 +1,450 @@
+Script started on Tue 16 Sep 2014 12:44:39 PM EDT
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ go 239
+Got here 1 times.
+Got to here 1 times.
+Got here 2 times.
+Got to here 2 times.
+Got here 3 times.
+Got to here 3 times.
+Got here 4 times.
+Got to here 4 times.
+Got here 5 times.
+Got to here 5 times.
+Got here 6 times.
+Got to here 6 times.
+Got here 7 times.
+Got to here 7 times.
+Got here 8 times.
+Got to here 8 times.
+Got here 9 times.
+Got to here 9 times.
+Got here 10 times.
+Got to here 10 times.
+Got here 11 times.
+Got to here 11 times.
+Got here 12 times.
+Got to here 12 times.
+Got here 13 times.
+Got to here 13 times.
+Got here 14 times.
+Got to here 14 times.
+Got here 15 times.
+Got to here 15 times.
+Got here 16 times.
+Got to here 16 times.
+Got here 17 times.
+Got to here 17 times.
+Got here 18 times.
+Got to here 18 times.
+Got here 19 times.
+Got to here 19 times.
+Got here 20 times.
+Got to here 20 times.
+Got here 21 times.
+Got to here 21 times.
+Got here 22 times.
+Got to here 22 times.
+Got here 23 times.
+Got to here 23 times.
+Got here 24 times.
+Got to here 24 times.
+Got here 25 times.
+Got to here 25 times.
+Got here 26 times.
+Got to here 26 times.
+Got here 27 times.
+Got to here 27 times.
+Got here 28 times.
+Got to here 28 times.
+Got here 29 times.
+Got to here 29 times.
+Got here 30 times.
+Got to here 30 times.
+Got here 31 times.
+Got to here 31 times.
+Got here 32 times.
+Got to here 32 times.
+Got here 33 times.
+Got to here 33 times.
+Got here 34 times.
+Got to here 34 times.
+Got here 35 times.
+Got to here 35 times.
+Got here 36 times.
+Got to here 36 times.
+Got here 37 times.
+Got to here 37 times.
+Got here 38 times.
+Got to here 38 times.
+Got here 39 times.
+Got to here 39 times.
+Got here 40 times.
+Got to here 40 times.
+Got here 41 times.
+Got to here 41 times.
+Got here 42 times.
+Got to here 42 times.
+Got here 43 times.
+Got to here 43 times.
+Got here 44 times.
+Got to here 44 times.
+Got here 45 times.
+Got to here 45 times.
+Got here 46 times.
+Got to here 46 times.
+Got here 47 times.
+Got to here 47 times.
+Got here 48 times.
+Got to here 48 times.
+Got here 49 times.
+Got to here 49 times.
+Got here 50 times.
+Got to here 50 times.
+Got here 51 times.
+Got to here 51 times.
+Got here 52 times.
+Got to here 52 times.
+Got here 53 times.
+Got to here 53 times.
+Got here 54 times.
+Got to here 54 times.
+Got here 55 times.
+Got to here 55 times.
+Got here 56 times.
+Got to here 56 times.
+Got here 57 times.
+Got to here 57 times.
+Got here 58 times.
+Got to here 58 times.
+Got here 59 times.
+Got to here 59 times.
+Got here 60 times.
+Got to here 60 times.
+Got here 61 times.
+Got to here 61 times.
+Got here 62 times.
+Got to here 62 times.
+Got here 63 times.
+Got to here 63 times.
+Got here 64 times.
+Got to here 64 times.
+Got here 65 times.
+Got to here 65 times.
+Got here 66 times.
+Got to here 66 times.
+Got here 67 times.
+Got to here 67 times.
+Got here 68 times.
+Got to here 68 times.
+Got here 69 times.
+Got to here 69 times.
+Got here 70 times.
+Got to here 70 times.
+Got here 71 times.
+Got to here 71 times.
+Got here 72 times.
+Got to here 72 times.
+Got here 73 times.
+Got to here 73 times.
+Got here 74 times.
+Got to here 74 times.
+Got here 75 times.
+Got to here 75 times.
+Got here 76 times.
+Got to here 76 times.
+Got here 77 times.
+Got to here 77 times.
+Got here 78 times.
+Got to here 78 times.
+Got here 79 times.
+Got to here 79 times.
+Got here 80 times.
+Got to here 80 times.
+Got here 81 times.
+Got to here 81 times.
+Got here 82 times.
+Got to here 82 times.
+Got here 83 times.
+Got to here 83 times.
+Got here 84 times.
+Got to here 84 times.
+Got here 85 times.
+Got to here 85 times.
+Got here 86 times.
+Got to here 86 times.
+Got here 87 times.
+Got to here 87 times.
+Got here 88 times.
+Got to here 88 times.
+Got here 89 times.
+Got to here 89 times.
+Got here 90 times.
+Got to here 90 times.
+Got here 91 times.
+Segmentation fault (core dumped)
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ gdb go
+GNU gdb (GDB) 7.6.1-ubuntu
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/joe/2240/go...(no debugging symbols found)...done.
+(gdb) run 239
+Starting program: /home/joe/2240/go 239
+Got here 1 times.
+Got to here 1 times.
+Got here 2 times.
+Got to here 2 times.
+Got here 3 times.
+Got to here 3 times.
+Got here 4 times.
+Got to here 4 times.
+Got here 5 times.
+Got to here 5 times.
+Got here 6 times.
+Got to here 6 times.
+Got here 7 times.
+Got to here 7 times.
+Got here 8 times.
+Got to here 8 times.
+Got here 9 times.
+Got to here 9 times.
+Got here 10 times.
+Got to here 10 times.
+Got here 11 times.
+Got to here 11 times.
+Got here 12 times.
+Got to here 12 times.
+Got here 13 times.
+Got to here 13 times.
+Got here 14 times.
+Got to here 14 times.
+Got here 15 times.
+Got to here 15 times.
+Got here 16 times.
+Got to here 16 times.
+Got here 17 times.
+Got to here 17 times.
+Got here 18 times.
+Got to here 18 times.
+Got here 19 times.
+Got to here 19 times.
+Got here 20 times.
+Got to here 20 times.
+Got here 21 times.
+Got to here 21 times.
+Got here 22 times.
+Got to here 22 times.
+Got here 23 times.
+Got to here 23 times.
+Got here 24 times.
+Got to here 24 times.
+Got here 25 times.
+Got to here 25 times.
+Got here 26 times.
+Got to here 26 times.
+Got here 27 times.
+Got to here 27 times.
+Got here 28 times.
+Got to here 28 times.
+Got here 29 times.
+Got to here 29 times.
+Got here 30 times.
+Got to here 30 times.
+Got here 31 times.
+Got to here 31 times.
+Got here 32 times.
+Got to here 32 times.
+Got here 33 times.
+Got to here 33 times.
+Got here 34 times.
+Got to here 34 times.
+Got here 35 times.
+Got to here 35 times.
+Got here 36 times.
+Got to here 36 times.
+Got here 37 times.
+Got to here 37 times.
+Got here 38 times.
+Got to here 38 times.
+Got here 39 times.
+Got to here 39 times.
+Got here 40 times.
+Got to here 40 times.
+Got here 41 times.
+Got to here 41 times.
+Got here 42 times.
+Got to here 42 times.
+Got here 43 times.
+Got to here 43 times.
+Got here 44 times.
+Got to here 44 times.
+Got here 45 times.
+Got to here 45 times.
+Got here 46 times.
+Got to here 46 times.
+Got here 47 times.
+Got to here 47 times.
+Got here 48 times.
+Got to here 48 times.
+Got here 49 times.
+Got to here 49 times.
+Got here 50 times.
+Got to here 50 times.
+Got here 51 times.
+Got to here 51 times.
+Got here 52 times.
+Got to here 52 times.
+Got here 53 times.
+Got to here 53 times.
+Got here 54 times.
+Got to here 54 times.
+Got here 55 times.
+Got to here 55 times.
+Got here 56 times.
+Got to here 56 times.
+Got here 57 times.
+Got to here 57 times.
+Got here 58 times.
+Got to here 58 times.
+Got here 59 times.
+Got to here 59 times.
+Got here 60 times.
+Got to here 60 times.
+Got here 61 times.
+Got to here 61 times.
+Got here 62 times.
+Got to here 62 times.
+Got here 63 times.
+Got to here 63 times.
+Got here 64 times.
+Got to here 64 times.
+Got here 65 times.
+Got to here 65 times.
+Got here 66 times.
+Got to here 66 times.
+Got here 67 times.
+Got to here 67 times.
+Got here 68 times.
+Got to here 68 times.
+Got here 69 times.
+Got to here 69 times.
+Got here 70 times.
+Got to here 70 times.
+Got here 71 times.
+Got to here 71 times.
+Got here 72 times.
+Got to here 72 times.
+Got here 73 times.
+Got to here 73 times.
+Got here 74 times.
+Got to here 74 times.
+Got here 75 times.
+Got to here 75 times.
+Got here 76 times.
+Got to here 76 times.
+Got here 77 times.
+Got to here 77 times.
+Got here 78 times.
+Got to here 78 times.
+Got here 79 times.
+Got to here 79 times.
+Got here 80 times.
+Got to here 80 times.
+Got here 81 times.
+Got to here 81 times.
+Got here 82 times.
+Got to here 82 times.
+Got here 83 times.
+Got to here 83 times.
+Got here 84 times.
+Got to here 84 times.
+Got here 85 times.
+Got to here 85 times.
+Got here 86 times.
+Got to here 86 times.
+Got here 87 times.
+Got to here 87 times.
+Got here 88 times.
+Got to here 88 times.
+Got here 89 times.
+Got to here 89 times.
+Got here 90 times.
+Got to here 90 times.
+Got here 91 times.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400e06 in storeandsort ()
+(gdb) backtrace
+#0  0x0000000000400e06 in storeandsort ()
+#1  0x0000000000400c8c in processbuffer ()
+#2  0x0000000000400b76 in main ()
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 20101] will be killed.
+
+Quit anyway? (y or n) y
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ make 2
+make: `2' is up to date.
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ ./2 239
+Storage File Open Failed: Permission denied
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ ./2 239
+Here: 1 times.
+Here: 2 times.
+Here: 3 times.
+Here: 4 times.
+Here: 5 times.
+Here: 6 times.
+Here: 7 times.
+Here: 8 times.
+Here: 9 times.
+Here: 10 times.
+Here: 11 times.
+Here: 12 times.
+Here: 13 times.
+Here: 14 times.
+Here: 15 times.
+Read fail: Bad file descriptor
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ make 2
+make: `2' is up to date.
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ rm -f tr[K[Kso[Ktorage.bin
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ gdb 2
+GNU gdb (GDB) 7.6.1-ubuntu
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/joe/2240/2...(no debugging symbols found)...done.
+(gdb) run 239
+Starting program: /home/joe/2240/2 239
+Here: 1 times.
+Here: 2 times.
+Here: 3 times.
+Here: 4 times.
+Here: 5 times.
+Here: 6 times.
+Here: 7 times.
+Here: 8 times.
+Here: 9 times.
+Here: 10 times.
+Here: 11 times.
+Here: 12 times.
+Here: 13 times.
+Here: 14 times.
+Here: 15 times.
+Read fail: Bad file descriptor
+[Inferior 1 (process 22007) exited with code 01]
+(gdb) quit
+]0;joe@LUCI: ~/2240joe@LUCI:~/2240$ exit
+exit
+
+Script done on Tue 16 Sep 2014 12:45:55 PM EDT

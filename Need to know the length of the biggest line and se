@@ -1,0 +1,11 @@
+Need to know the length of the biggest line and send it in to read character by character.
+
+It's good to do a buffered IO
+
+static is part of the declaration that allows you to keep local variables persistently. it is global but the scope of the name is only within the method.
+
+Test using the same name outside the subroutine.
+
+Must always check error return on system call for open:if the file descriptor is less than 0
+
+assert is nice to use to halt code in debug to test stuff
